@@ -1,0 +1,85 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.header {
+    height: 10vh;
+    display: flex;
+    justify-content:space-between;
+    background-color: blueviolet;
+    align-items: center;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+.footer {
+align-items: center;
+justify-content: center;
+background-color: blueviolet;
+position: absolute;
+bottom: 0;   
+display: flex;
+height: 6vh;
+width: 100vw;
+
+
+}
+h3 {
+    color: aqua;
+}
+h1 {
+    color: aqua;
+    font-weight: 200;
+}
+.links {
+    color: rgb(7, 13, 121);
+    text-decoration: none;
+
+}
+.links:hover {
+    color: #ffa000; 
+}
+.links-container {
+    align-items: center;
+    display: flex;
+    justify-content:space-around;
+    width: 50vh;
+}
+h3.name {
+    color: blueviolet;
+   
+}
+.container {
+    padding:5vh 15vh 0 15vh;
+    display: flex;
+    flex-direction: column;
+    height: 84vh;
+    justify-content: space-evenly;
+}
+.tt{
+    display: flex;
+    flex-direction: column;
+}
+.film-container {
+    justify-content: space-evenly;
+    height: 30vh;
+    display: flex;
+    margin-top: 2vh;
+}
+.wrapper {
+display: flex;
+flex-direction: column;
+height: 42vh;
+}
+.film {
+  display: flex;
+  width: 10vw;
+  flex-direction: column;
+
+}
+.ygly {
+    border-radius: 4px;
+}
+.ygly:hover {
+    box-shadow: -3px -3px 3px 3px blueviolet;
+}
